@@ -326,3 +326,43 @@ a {
 .card-img {
     width: 100px;
 }
+
+.recent-activity {
+    padding: 64px;
+}
+
+.activity-h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.activity-btn {
+    padding: 12px 25px;
+}
+
+.activity-line {
+    height: 1px;
+    width: 23%;
+    background-color: rgb(204, 203, 203);
+    position: absolute;
+    top: 410px;
+}
+
+.activity-line::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #000;
+    transition: width 0.5s ease-in-out;
+}
+
+.activity-line:hover::after {
+    width: 100%;
+}
+
+.activity-p {
+    font-size: 17px;
+}
