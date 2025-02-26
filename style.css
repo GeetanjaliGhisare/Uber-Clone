@@ -366,3 +366,48 @@ a {
 .activity-p {
     font-size: 17px;
 }
+
+.driver {
+    padding: 64px;
+}
+
+.driver img {
+    width: 558px;
+    height: 558px;
+}
+
+.driver-rightcol {
+    padding-left: 150px;
+}
+
+.driver-line {
+    height: 1px;
+    width: 62%;
+    position: absolute;
+    background-color: rgb(204, 203, 203);
+    top: 63px;
+    left: 154px;
+}
+
+.driver-line::after {
+    height: 100%;
+    width: 0;
+    left: 0;
+    background-color: #000;
+    content: "";
+    position: absolute;
+    transition: width 0.5s ease-in-out;
+}
+
+.driver-line:hover::after {
+    width: 100%;
+}
+
+.driver-btn {
+    margin: 0;
+    font-size: 16px;
+    border: none;
+    height: 45px;
+    margin-top: 30px;
+    padding: 10px 25px;
+}
