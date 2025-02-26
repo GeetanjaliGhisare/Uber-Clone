@@ -285,3 +285,44 @@ a {
 }
 
 /* suggestion section */
+
+
+.suggestion,
+.money-making {
+    padding: 64px;
+}
+
+.h1-suggest {
+    font-size: 36px;
+    margin-bottom: 36px;
+}
+
+.card-title {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.card-text {
+    font-size: 13px;
+    margin: 8px 0;
+    padding-right: 8px;
+}
+
+.card {
+    background-color: #f5f2f2;
+    padding: 16px;
+}
+
+.card-body {
+    width: 100%;
+    padding: 0;
+}
+
+.card img {
+    height: 110px;
+    width: 120px !important;
+}
+
+.card-img {
+    width: 100px;
+}
