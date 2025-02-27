@@ -488,3 +488,39 @@ footer .card-title {
     line-height: 32px;
     width: 100%;
 }
+
+.dark-footer {
+    padding: 64px 112px;
+}
+
+.dfoot-h1 {
+    font-size: 24px;
+}
+
+.dark-footer a {
+    color: white;
+}
+
+.dark-footer li {
+    padding-bottom: 10px;
+}
+
+.dfoot-icons i {
+    padding-right: 60px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.dfooticn-right {
+    margin-top: 45px;
+}
+
+.dfooticn-right span {
+    padding-right: 30px;
+}
+
+.dfoot-pay img {
+    height: 37px;
+    width: 128px;
+    border: 1px solid #494848;
+}
