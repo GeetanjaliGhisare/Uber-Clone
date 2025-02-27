@@ -411,3 +411,59 @@ a {
     margin-top: 30px;
     padding: 10px 25px;
 }
+
+.business-activity {
+    padding: 64px;
+
+}
+
+.business-cont {
+    padding: 100px 0;
+}
+
+.business-p {
+    color: grey;
+}
+
+.business-line {
+    height: 1px;
+    width: 27%;
+    position: absolute;
+    background-color: rgb(204, 203, 203);
+    top: 63px;
+    left: 154px;
+}
+
+.business-line::after {
+
+    height: 100%;
+    width: 0;
+    left: 0;
+    background-color: #000;
+    content: "";
+    position: absolute;
+    transition: width 0.5s ease-in-out;
+}
+
+.business-line:hover::after {
+    width: 100%;
+}
+
+.renting-h1 {
+    font-size: 36px;
+}
+
+.renting-cont {
+    padding: 130px 0 !important;
+    margin-left: 150px;
+}
+
+.renting-btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.renting-img {
+    width: 558px;
+    height: 558px;
+}
