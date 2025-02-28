@@ -545,4 +545,15 @@ footer .card-title {
     .nav-link {
         color: black;
     }
+    .navbar-collapse {
+        background-color: #fff;
+    }
+
+    .nav-link {
+        font-size: 32px;
+        font-weight: 700;
+        height: 72px;
+        width: 342px;
+    }
+
 }
